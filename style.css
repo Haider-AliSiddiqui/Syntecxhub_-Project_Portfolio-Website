@@ -25,6 +25,7 @@ body{
     background-color: #2a2a2a;
     border: 1px solid #3a3a3a;
     border-radius: 16px;
+    padding: 40px;
 }
 
 .main-content{
@@ -32,6 +33,11 @@ body{
     background-color: #2a2a2a;
     border: 1px solid #3a3a3a;
     border-radius: 16px;
+}
+
+/* Profile Section */
+.profile{
+    text-align: center;
 }
 
 .profile img {
@@ -57,4 +63,32 @@ body{
     border-radius: 8px;
     display: inline-block;
     margin-top: 10px;
+}
+
+.profile p:hover {
+    background-color: #FFBF00;
+    color: #1e1e1e;
+}
+
+/* Contact Section */
+.contact {
+    margin-top: 20px;
+    border-top: 2px solid #3a3a3ad6;
+    padding-top: 20px;
+}
+
+.label{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #a0a0a0;
+}
+.value{
+    color: #e0e0e0;
+    text-decoration: none;
+}
+.value:hover {
+    text-decoration: underline;
+}
+.email, .Phone{
+    margin-bottom: 15px;
 }
