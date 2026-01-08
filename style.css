@@ -33,6 +33,7 @@ body{
     background-color: #2a2a2a;
     border: 1px solid #3a3a3a;
     border-radius: 16px;
+    padding: 40px;
 }
 
 /* Profile Section */
@@ -91,4 +92,51 @@ body{
 }
 .email, .Phone{
     margin-bottom: 15px;
+}
+
+/* social-media */
+.social-media{
+    margin-top: 20px;
+    border-top: 2px solid #3a3a3ad6;
+    padding-top: 20px;
+    text-align: center;
+}
+.social-media img{
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+    filter: grayscale(1) invert(0.7);
+}
+.social-media img:hover{
+    filter: grayscale(0) invert(0);
+}
+
+/* main content */
+
+/* Navigation */
+
+.navigation{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a{
+    color: #a0a0a0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover{
+    color: #FFBF00;
+}
+
+.active{
+    color: #FFBF00;
 }
